@@ -19,10 +19,11 @@ def main():
     ## 新产品发布 [Title and 2 Column]
     - 产品A: 特色功能介绍
     - 产品B: 市场定位
+    ![业绩图表](images/performance_chart.png)
     ![未来增长](images/forecast.png)
     """
 
-    template_file = 'templates/MasterTemplate.pptx'
+    template_file = 'templates/LGBTQIA Pride Month presentation.pptx'
     prs = load_template(template_file)
 
     print("Available Slide Layouts:")

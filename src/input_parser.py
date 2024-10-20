@@ -6,7 +6,7 @@ from dataclasses import dataclass, field
 class SlideContent:
     title: str
     bullet_points: List[str] = field(default_factory=list)
-    image_path: Optional[str] = None
+    image_paths: List[str] = field(default_factory=list)
 
 @dataclass
 class Slide:
@@ -103,7 +103,7 @@ def parse_input_text(input_text: str, layout_mapping: dict) -> PowerPoint:
             match = image_pattern.match(line)
             if match:
                 image_path = match.group(1).strip()
-                current_slide.content.image_path = image_path
+                current_slide.content.image_paths.append(image_path)
 
     if current_slide:
         slides.append(current_slide)
