@@ -13,7 +13,7 @@ def test_calculate_sum():
         assert calculate_sum(0, 0) == 0, "Test case 3 failed"
 
         # 如果所有测试通过，返回成功信息
-        print("All tests passed6")
+        print("All tests passed7")
         return True
     except AssertionError as e:
         print(e)
