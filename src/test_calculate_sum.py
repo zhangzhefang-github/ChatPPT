@@ -12,7 +12,7 @@ def test_calculate_sum():
         assert calculate_sum(-1, 1) == 0, "Test case 2 failed"
         assert calculate_sum(0, 0) == 0, "Test case 3 failed"
 #1
-
+#2
         # 如果所有测试通过，返回成功信息
         print("All tests passed9")
         return True
