@@ -8,7 +8,7 @@ def calculate_sum(a, b):
 def test_calculate_sum():
     try:
         # 测试案例：例如 2 + 3 应该等于 5
-        assert calculate_sum(2, 3) == 5, "Test case 1 failed"
+        assert calculate_sum(2, 3) == 6, "Test case 1 failed"
         assert calculate_sum(-1, 1) == 0, "Test case 2 failed"
         assert calculate_sum(0, 0) == 0, "Test case 3 failed"
 
