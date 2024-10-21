@@ -14,6 +14,7 @@ def test_calculate_sum():
 #1
 #2
 #3
+#4
         # 如果所有测试通过，返回成功信息
         print("All tests passed9")
         return True
